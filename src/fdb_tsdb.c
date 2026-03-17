@@ -25,7 +25,6 @@
 
 #if defined(FDB_USING_TSDB)
 
-
 /* magic word(`T`, `S`, `L`, `0`) */
 #define SECTOR_MAGIC_WORD                        0x304C5354
 
