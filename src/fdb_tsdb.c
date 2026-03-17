@@ -25,9 +25,6 @@
 
 #if defined(FDB_USING_TSDB)
 
-#if  (FDB_WRITE_GRAN == 256)
-#error "Flash  256 bits write granularity is not supported in TSDB yet!"
-#endif
 
 /* magic word(`T`, `S`, `L`, `0`) */
 #define SECTOR_MAGIC_WORD                        0x304C5354
